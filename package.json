@@ -1,0 +1,43 @@
+{
+  "name": "codetwostrand",
+  "version": "1.0.0",
+  "description": "Work in Progress!",
+  "homepage": "https://github.com/rtrevizo18/codetwostrand#readme",
+  "bugs": {
+    "url": "https://github.com/rtrevizo18/codetwostrand/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtrevizo18/codetwostrand.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
+    "build": "npm run build --prefix server && npm run build --prefix client",
+    "commit": "cz",
+    "lint": "eslint .",
+    "lint:cli": "eslint client",
+    "lint:ser": "eslint server"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "commitizen": "^4.3.1",
+    "concurrently": "^9.1.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

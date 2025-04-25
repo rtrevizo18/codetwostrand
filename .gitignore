@@ -1,0 +1,60 @@
+# Node modules (shared + per workspace)
+node_modules/
+**/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency lock files (optional — if using only one)
+# Remove the one you're *not* using
+# yarn.lock
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Runtime
+**/.env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# Prettier & ESLint
+.prettiercache
+
+# Jest / Vitest
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Husky hooks
+.husky/_/
+
+# Optional: Turbo/Next cache
+.next/
+turbo/
+
+# Optional: Vitest snapshot testing
+__snapshots__/
+
+# Optional: Mac / Linux clutter
+*.swp
+*~
+
+# Optional: lockfile backups
+*.lockbkp
