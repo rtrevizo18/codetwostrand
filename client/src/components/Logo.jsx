@@ -1,3 +1,5 @@
+import styles from './Logo.module.css';
+
 const LOGO_SVG_WIDTH = 112;
 const LOGO_SVG_HEIGHT = 109;
 
@@ -8,6 +10,7 @@ function LogoSVG({ sizeRatio }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
+      className={styles.logo_svg}
       width={width}
       zoomAndPan="magnify"
       viewBox="0 0 84 81.749997"
@@ -115,7 +118,6 @@ function LogoSVG({ sizeRatio }) {
       <g clip-path="url(#f2040244fc)">
         <g clip-path="url(#9e82b9174f)">
           <path
-            fill="#000000"
             d="M 24.925781 36.886719 L 68.957031 36.886719 L 68.957031 80.917969 L 24.925781 80.917969 Z M 24.925781 36.886719 "
             fill-opacity="1"
             fill-rule="nonzero"
@@ -125,7 +127,6 @@ function LogoSVG({ sizeRatio }) {
       <g clip-path="url(#98a462a73a)">
         <g clip-path="url(#2fd2fc99d1)">
           <path
-            fill="#000000"
             d="M 44.3125 0 L 49.546875 0 L 49.546875 32.40625 L 44.3125 32.40625 Z M 44.3125 0 "
             fill-opacity="1"
             fill-rule="nonzero"
@@ -136,7 +137,6 @@ function LogoSVG({ sizeRatio }) {
         <g clip-path="url(#61da62df61)">
           <g clip-path="url(#9a5bfbc7d6)">
             <path
-              fill="#000000"
               d="M 69.171875 7.164062 L 74.09375 8.949219 L 63.953125 36.894531 L 59.03125 35.109375 Z M 69.171875 7.164062 "
               fill-opacity="1"
               fill-rule="nonzero"
@@ -148,7 +148,6 @@ function LogoSVG({ sizeRatio }) {
         <g clip-path="url(#70ef283dcd)">
           <g clip-path="url(#69ee3f97f9)">
             <path
-              fill="#000000"
               d="M 21.992188 10.636719 L 26.8125 8.59375 L 37.335938 33.421875 L 32.519531 35.464844 Z M 21.992188 10.636719 "
               fill-opacity="1"
               fill-rule="nonzero"
@@ -160,7 +159,6 @@ function LogoSVG({ sizeRatio }) {
         <g clip-path="url(#7e4dc6762e)">
           <g clip-path="url(#a581722d2b)">
             <path
-              fill="#000000"
               d="M 0.128906 35.621094 L 4.046875 30.125 L 24.917969 44.996094 L 21 50.496094 Z M 0.128906 35.621094 "
               fill-opacity="1"
               fill-rule="nonzero"
@@ -172,7 +170,6 @@ function LogoSVG({ sizeRatio }) {
         <g clip-path="url(#51d6007e23)">
           <g clip-path="url(#6189a9cc5a)">
             <path
-              fill="#000000"
               d="M 79.4375 28.1875 L 83.65625 31.28125 L 73.179688 45.578125 L 68.957031 42.484375 Z M 79.4375 28.1875 "
               fill-opacity="1"
               fill-rule="nonzero"

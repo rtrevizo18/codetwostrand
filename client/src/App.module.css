@@ -1,3 +1,22 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --button-color: rgb(19, 19, 170);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --button-color: indigo;
+  }
+}
+
+:root {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
 * {
   margin: 0;
   padding: 0;
