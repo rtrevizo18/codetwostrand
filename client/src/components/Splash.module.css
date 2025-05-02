@@ -22,3 +22,37 @@
   flex-direction: column;
   color: white;
 }
+
+.search_form_main {
+  padding: 2.5rem 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* search bar */
+.search_form_main input {
+  flex: 1;
+  padding: 1rem 1rem;
+  font-size: 20px;
+  border: solid gray 2px;
+  border-radius: 30px;
+  font-weight: 900;
+}
+
+.search_form_main button {
+  background-color: rgb(238, 238, 238);
+  padding: 0.75rem;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 2%;
+}
+
+.search_form_main button:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}

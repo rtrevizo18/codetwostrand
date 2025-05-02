@@ -25,8 +25,8 @@ function SearchForm() {
     event.preventDefault();
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text"></input>
+    <form className={styles.search_form_main} onSubmit={handleSubmit}>
+      <input type="text" placeholder="Look for your next project..."></input>
       <button type="submit">
         <MagGlassSVG />
       </button>
