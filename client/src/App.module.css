@@ -26,4 +26,11 @@
   min-height: 100vh;
   font-size: 25px;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.body > main {
+  flex: 1;
+  min-height: 70vh;
 }

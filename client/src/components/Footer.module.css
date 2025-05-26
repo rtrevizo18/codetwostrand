@@ -1,5 +1,4 @@
 .footer {
-  flex: 1;
-  max-height: 90vh;
+  flex: none;
   overflow: hidden;
 }

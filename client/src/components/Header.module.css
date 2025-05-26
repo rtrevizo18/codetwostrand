@@ -5,20 +5,30 @@
   color: var(--text-color);
   padding: 0.6rem 0.2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  /* Still working on whether editing flex properties on main will make this responsive
+  Goal is making it so page is based on some height not on viewport height (weird behavior) */
+  flex: none;
 }
 
-.header nav {
+.header > nav {
   display: flex;
   padding: 0rem 1rem;
-  gap: 1.5rem;
+  gap: 3rem;
   align-items: center;
 }
 
 .header_logo {
+  justify-self: flex-start;
   display: flex;
   gap: 1rem;
+}
+
+.header_logo > button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 .header_title {
@@ -28,29 +38,29 @@
   font-style: normal;
 }
 
-.header nav button {
-  border: none;
-  background-color: inherit;
-  cursor: pointer;
+.nav_links {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
 }
 
-.header a {
+.nav_links > a {
   color: var(--text-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 900;
-  font-size: 19px;
+  font-size: 18px;
 }
 
-.header_buttons {
+.nav_buttons {
   display: flex;
   gap: 1.5rem;
   padding: 0rem 1.5rem 0rem 0rem;
-  justify-self: flex-end;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.header_buttons button {
+.nav_buttons > button {
   color: white;
   font-size: 16px;
   font-size: 900;

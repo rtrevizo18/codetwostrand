@@ -1,5 +1,5 @@
 .splash_body_main {
-  flex: 1;
+  flex: 0 1 auto;
   max-height: 90vh;
   overflow: hidden;
   background-color: black;
