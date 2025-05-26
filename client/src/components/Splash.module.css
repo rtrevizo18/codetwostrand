@@ -59,11 +59,25 @@
   max-height: 70vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 2rem;
+  gap: 5rem;
 }
 
 .what_we_provide_cards {
   display: flex;
-  gap: 5rem;
+  gap: 10rem;
+}
+
+.what_we_provide_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  font-weight: bold;
+}
+
+.what_we_provide_card svg {
+  fill: var(--text-color);
 }
