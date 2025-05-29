@@ -3,7 +3,7 @@
 .header {
   background-color: var(--background-color);
   color: var(--text-color);
-  padding: 0.6rem 0.2rem;
+  padding: 0.6rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,8 +47,8 @@
 .nav_links > a {
   color: var(--text-color);
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 900;
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: 600;
   font-size: 18px;
 }
 
