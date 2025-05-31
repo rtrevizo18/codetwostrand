@@ -1,12 +1,9 @@
 import styles from './Splash.module.css';
 import codingGIF from '../../assets/CodingSplash.gif';
-import {
-  MagGlassSVG,
-  DesktopSVG,
-  CodeSVG,
-  LightbulbSVG,
-  PersonSVG
-} from './svgs/Svg';
+import { MagGlassSVG } from './svgs/Svg';
+
+//Component imports
+import WhatWeDo from './WhatWeDo';
 
 function SearchForm() {
   const handleSubmit = event => {
@@ -19,39 +16,6 @@ function SearchForm() {
         <MagGlassSVG />
       </button>
     </form>
-  );
-}
-
-const SIZERATIO = 3.0;
-
-function CodingSolutions() {
-  return <div>Hey</div>;
-}
-
-function WhatWeDo() {
-  return (
-    <div className={styles.what_we_provide}>
-      <h2>What We Provide</h2>
-      <div className={styles.what_we_provide_cards}>
-        <div className={styles.what_we_provide_card}>
-          <DesktopSVG sizeRatio={SIZERATIO} />
-          <div>IT Work, remote or in-person</div>
-        </div>
-        <div className={styles.what_we_provide_card}>
-          <CodeSVG sizeRatio={SIZERATIO} />
-          <div>Coding solutions, for our own</div>
-        </div>
-        <div className={styles.what_we_provide_card}>
-          <LightbulbSVG sizeRatio={SIZERATIO} />
-          <div>Any software idea!</div>
-        </div>
-        <div className={styles.what_we_provide_card}>
-          <PersonSVG sizeRatio={SIZERATIO} />
-          <div>Let us know, we might just be able to help!</div>
-        </div>
-      </div>
-      <CodingSolutions />
-    </div>
   );
 }
 
