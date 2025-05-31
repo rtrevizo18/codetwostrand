@@ -94,4 +94,4 @@ function PersonSVG({ sizeRatio = 1.0 }) {
   );
 }
 
-export default { MagGlassSVG, DesktopSVG, CodeSVG, LightbulbSVG, PersonSVG };
+export { MagGlassSVG, DesktopSVG, CodeSVG, LightbulbSVG, PersonSVG };
